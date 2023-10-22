@@ -26,7 +26,7 @@ const SideBar: React.FC<SideBarProps> = ({ isOpen, onClose }) => {
   const handleDelete = (index: number) => {
     if (deleteItem) {
       deleteItem(index);
-      toast.success("Item deleted to cart successfully");
+      toast.success("Item deleted successfully");
     }
   };
   return (
